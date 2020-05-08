@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidAppUpdate</string>
+    <string name="flexible_btn">Flexible</string>
+    <string name="immediate_btn">"Immediate "</string>
+    <string name="app_update_started_background">The update is started in background</string>
+    <string name="update_complete_message">An update has just been downloaded.</string>
+    <string name="install_update">Install Update</string>
+    <string name="no_udate_available">No update is available</string>
+</resources>
