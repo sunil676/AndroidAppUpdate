@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "832517972782",
+    "firebase_url": "https://androidappupdate-7d5ef.firebaseio.com",
+    "project_id": "androidappupdate-7d5ef",
+    "storage_bucket": "androidappupdate-7d5ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832517972782:android:7d715e7f5be5278cf210bf",
+        "android_client_info": {
+          "package_name": "com.sunil.androidappupdate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832517972782-05q055to5hp55tddsfa73qmmi8lj4se4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgNtlkNVwlrRLr0_wLITchaZLxb7LUr4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832517972782-05q055to5hp55tddsfa73qmmi8lj4se4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
