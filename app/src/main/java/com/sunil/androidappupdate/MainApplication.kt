@@ -15,11 +15,11 @@ class MainApplication : Application(){
         val remoteConfigMap = mutableMapOf<String, String>()
         remoteConfigMap[parameterKey] = getCurrentAppVersion(this)
 
-        remoteConfig.setDefaults(remoteConfigMap as Map<String, Any>?)
+        remoteConfig.setDefaultsAsync(remoteConfigMap as  Map<String, Any>)
         remoteConfig.fetch()
             .addOnCompleteListener { task ->
                 if (task.isSuccessful)
-                    remoteConfig.activateFetched()
+                    remoteConfig.activate()
             }
     }
 

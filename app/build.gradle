@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.sunil.androidappupdate"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -45,5 +45,6 @@ dependencies {
     // google material guidelines
     implementation 'com.google.android.material:material:1.1.0'
 
-    implementation 'com.google.firebase:firebase-config:16.0.0'
+    // firebase remote config
+    implementation 'com.google.firebase:firebase-config:19.1.4'
 }
