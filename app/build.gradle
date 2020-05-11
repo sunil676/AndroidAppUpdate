@@ -47,4 +47,10 @@ dependencies {
 
     // firebase remote config
     implementation 'com.google.firebase:firebase-config:19.1.4'
+
+    // sms
+    // optional for Phone Selector to get the number
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    // core api for sms
+    implementation 'com.google.android.gms:play-services-auth-api-phone:17.4.0'
 }
